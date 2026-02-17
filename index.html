@@ -9,9 +9,11 @@
 </head>
 
 <body>
-    <video class="video" controls autoplay>
-        <source src="https://d2me8ya8fubwwb.cloudfront.net/horizontal/master.m3u8" type="video/mp4">
+    <video class="video" controls autoplay muted playsinline>
+        <source src="https://d2me8ya8fubwwb.cloudfront.net/horizontal/master.m3u8" type="application/x-mpegURL">
     </video>
+
+    <script src="dist/player.js" defer></script>
 </body>
 
 </html>
